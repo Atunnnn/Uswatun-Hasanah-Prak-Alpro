@@ -1,5 +1,15 @@
 #include<iostream>
+#include<conio.h>
 using namespace std;
+float tambah(float x, float y){
+	float hasil;
+	return hasil= x+y;
+}
+float kurang(float x, float y){
+	float hasil;
+	return hasil= x+y;
+}
+
 int main(){
 	awal:
 	float pilih,a,b,hasil;
@@ -9,7 +19,7 @@ int main(){
 	cout<<"2. Pengurangan"<<endl;
 	cout<<"3. Perkalian"<<endl;
 	cout<<"4. Pembagian"<<endl;
-	cout<<"Pilih Menu No = ";cin>>pilih;
+	cout<<"silahkan masukkan kode Menu = ";cin>>pilih;
 	if(pilih==1){
 		cout<<"Bilangan Pertama = ";cin>>a;
 		cout<<"Bilangan Kedua   = ";cin>>b;
