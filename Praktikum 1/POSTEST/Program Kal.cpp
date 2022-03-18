@@ -31,28 +31,24 @@ int main(){
 	cout<<"4. Pembagian"<<endl;
 	cout<<"silahkan masukkan kode Menu = ";cin>>pilih;
 	if(pilih==1){
-		cout<<"Bilangan Pertama = ";cin>>a;
-		cout<<"Bilangan Kedua   = ";cin>>b;
-		hasil = a+b;
-		cout<<"Hasil "<<a<<"+"<<b<<" = "<<hasil;
+		cout<<"Bilangan Pertama = ";cin>>p;
+		cout<<"Bilangan Kedua   = ";cin>>l;
+		cout<<"Hasil "<<p<<"+"<<l<<" = "<<tambah(p,l);
 	}
 	else if(pilih==2){
-		cout<<"Bilangan Pertama = ";cin>>a;
-		cout<<"Bilangan Kedua   = ";cin>>b;
-		hasil = a-b;
-		cout<<"Hasil "<<a<<"-"<<b<<" = "<<hasil<<endl;
+		cout<<"Bilangan Pertama = ";cin>>p;
+		cout<<"Bilangan Kedua   = ";cin>>l;
+		cout<<"Hasil "<<p<<"-"<<l<<" = "<<kurang(p,l)<<endl;
 	}
 	else if(pilih==3){
-		cout<<"Bilangan Pertama = ";cin>>a;
-		cout<<"Bilangan Kedua   = ";cin>>b;
-		hasil = a*b;
-		cout<<"Hasil "<<a<<"*"<<b<<" = "<<hasil<<endl;
+		cout<<"Bilangan Pertama = ";cin>>p;
+		cout<<"Bilangan Kedua   = ";cin>>l;
+		cout<<"Hasil "<<p<<"*"<<l<<" = "<<kali(p,l)<<endl;
 	}
 	else if(pilih==4){
-		cout<<"Bilangan Pertama = ";cin>>a;
-		cout<<"Bilangan Kedua   = ";cin>>b;
-		hasil = a/b;
-		cout<<"Hasil "<<a<<"/"<<b<<" = "<<hasil<<endl;
+		cout<<"Bilangan Pertama = ";cin>>p;
+		cout<<"Bilangan Kedua   = ";cin>>l;
+		cout<<"Hasil "<<p<<"/"<<l<<" = "<<bagi(p,l)<<endl;
 	}
 	else{
 		cout<<"Angka Yang Dimasukkan Tidak Ditemukan"<<endl;
