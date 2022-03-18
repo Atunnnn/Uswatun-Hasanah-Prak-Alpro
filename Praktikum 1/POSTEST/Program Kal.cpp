@@ -1,5 +1,6 @@
 #include<iostream>
 #include<conio.h>
+#include<math.h>
 using namespace std;
 float tambah(float x, float y){
 	float hasil;
@@ -7,12 +8,21 @@ float tambah(float x, float y){
 }
 float kurang(float x, float y){
 	float hasil;
-	return hasil= x+y;
+	return hasil= x-y;
+}
+float kali(float x, float y){
+	float hasil;
+	return hasil= x*y;
+}
+float bagi(float x, float y){
+	float hasil;
+	return hasil= x/y;
 }
 
 int main(){
 	awal:
-	float pilih,a,b,hasil;
+	float pilih;
+	float p=0,l=0;
 	cout<<"PROGRAM KALKULATOR"<<endl;
 	cout<<"Pilihan Menu Operasi"<<endl;
 	cout<<"1. Penambahan"<<endl;
@@ -53,5 +63,5 @@ int main(){
 		goto awal;
 	}
 	cout<<"Program Anda Telah Berakhir"<<endl;
-	return 0;
+	getch();
 }
